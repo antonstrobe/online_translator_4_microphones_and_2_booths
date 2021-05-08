@@ -1,0 +1,13 @@
+<ul style="border-radius: 45px; color: white !important;
+    background-color: #4cfc9ef0;
+    width: 100px;
+    text-align: center;
+    border-radius: 40px;
+    border: 2px;" id="div" class="button-group1">
+<li>
+
+<form id="stack_save_micro_txt_open_1k" method="POST" action="">
+<input style="display: none;" name="subject_micro" type="text" value="open">
+<button style="border-radius: 25px" class="button" type="button" value="true" onclick='count_open_k1()'> Micro </button></form>
+</li></ul>
+<div style="font-size: 30px; text-align: center;">Микрофон закрыт</div>
