@@ -11,6 +11,14 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 	<style>
+		table {
+    width: 300px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+   }
+   td {
+    text-align: center; /* Выравниваем текст по центру ячейки */
+   }
 		#ajax_form{ color: #000; font-size: 24px; font-weight: 700; text-align: center; animation:blur 
 			2.199s ease-out infinite;text-shadow:text-shadow: #000;}
 
@@ -21,7 +29,7 @@
 					0px 0px 2px #fff, 0px 0px 2px #fff,	0px 0px 2px #fff, 0px 0px 2px #fff,	0px 0px 5px #fff, 0px 0px 5px #fff,
 					0px 0px 5px #7B96B8, 0px 0px 15px #7B96B8, 0px 10px 10px #7B96B8, 0px 10px 10px #7B96B8, 0px 10px 10px #7B96B8,
 					0px 10px 10px #7B96B8, 0px -10px 10px #7B96B8, 0px -10px 10px #7B96B8;}}
-				</style>
+	</style>
 
 				<script>
 					function onclicers() {
@@ -51,8 +59,7 @@
 					</script>
 
 					<div style="text-align: center;"><div id="ajax_ifarme2"></div>
-					<div style="text-align: center;">
-						<table style="text-align: center;" border="1">
+					<table style="text-align: center;" border="1">
 
 							<tr>
 								<th><a href="http://dfvote40.gq/form.txt"><div style="color: red; margin: 0 70px 0 70px; text-align: center;" id="ajaxDiv_1"> </div></a><br></th>
@@ -60,12 +67,14 @@
 								<th><a href="http://dfvote40.gq/micro.txt"><div style="color: red; margin: 0 70px 0 70px; text-align: center;" id="ajaxDiv_3"> </div></a><br></th>
 								<th><a href="http://dfvote40.gq/micro2.txt"><div style="color: red; margin: 0 70px 0 70px; text-align: center;" id="ajaxDiv_4"> </div></a><br></th>
 							</tr>
-							<tr style="text-align: center;"><td style="color: green; margin: 0 70px 0 70px; text-align: center;">Язык form- 1</a> </td>
-								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Язык form2 - 2</a> </td>
+							<tr style="text-align: center;"><td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 1</a> </td>
+								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 2</a> </td>
 								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 1</td>
 								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 2</td>
 							</tr>
 						</table>
+					<div style="text-align: center;">
+						
 <!-- <ul style="color: #c8a6ff;" class="button-group">
 <li><button style="margin-right: 20px;" class="button" onclick="count_open_k1()" value="OPEN - кабина 1">OPEN - кабина 1</button></li>
 <li><button style="margin-right: 20px;" class="button" onclick="count_closed_k1()" value="CLOSED - кабина 1">CLOSED - кабина 1</button></li>

@@ -11,6 +11,14 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 	<style>
+		table {
+    width: 300px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+   }
+   td {
+    text-align: center; /* Выравниваем текст по центру ячейки */
+   }
 		#ajax_form{ color: #000; font-size: 24px; font-weight: 700; text-align: center; animation:blur 
 			2.199s ease-out infinite;text-shadow:text-shadow: #000;}
 
@@ -47,7 +55,7 @@
 							$('#ajax_ifarme2').html(data); }, }); }
 						iframe2();
 					</script>
-					
+
 					<div style="text-align: center;"><div id="ajax_ifarme2"></div>
 
 					<div style="text-align: center;">
@@ -59,8 +67,8 @@
 								<th><a href="http://dfvote40.gq/micro.txt"><div style="color: red; margin: 0 70px 0 70px; text-align: center;" id="ajaxDiv_3"> </div></a><br></th>
 								<th><a href="http://dfvote40.gq/micro2.txt"><div style="color: red; margin: 0 70px 0 70px; text-align: center;" id="ajaxDiv_4"> </div></a><br></th>
 							</tr>
-							<tr style="text-align: center;"><td style="color: green; margin: 0 70px 0 70px; text-align: center;">Язык form- 1</a> </td>
-								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Язык form2 - 2</a> </td>
+							<tr style="text-align: center;"><td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 1</a> </td>
+								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 2</a> </td>
 								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 1</td>
 								<td style="color: green; margin: 0 70px 0 70px; text-align: center;">Кабина - 2</td>
 							</tr>
@@ -153,12 +161,12 @@ $micro2_txt = file_get_contents('http://dfvote40.gq/micro.txt');
 
 				function saves_A_k2() { var form = document.querySelector('#stack_A_k2'); var data = new FormData(form);
 			var req = new XMLHttpRequest();	req.open("POST", "form-write2.php", true); req.send(data); 
-			iFrame.contentWindow.postMessage("2", "*"); 
+			iFrame.contentWindow.postMessage("o1", "*"); 
 			for (var i = 0; i < 2; i++) {onclicers();}}
 
 				function saves_B_k2() { var form = document.querySelector('#stack_B_k2'); var data = new FormData(form);
 			var req = new XMLHttpRequest();	req.open("POST", "form-write2.php", true); req.send(data);
-			iFrame.contentWindow.postMessage("2", "*"); 
+			iFrame.contentWindow.postMessage("o1", "*"); 
 			for (var i = 0; i < 3; i++) { onclicers();} }
 
 				function save_micro_txt_open_1k() {var form = document.querySelector('#stack_save_micro_txt_open_1k');var data = new FormData(form);var req = new XMLHttpRequest();
